@@ -1,0 +1,166 @@
+* /* TUDO */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1, section h2, section h3, form button /* NOME DA LOJA && TÍTULO "SOBRE A LOJA" && SELETORES DO CABEÇALHO */
+{
+    font-family: "Bungee", sans-serif;
+    font-weight: normal; /** TAMBÉM FUNCIONA 400 */
+    font-style: normal;
+}
+
+body, input, textarea /* ALL ELEMENTOS */
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header /* CABEÇALHO */
+{
+    padding: 16px 0;
+    background-color:#182C61;
+    color:#ecf0f1;
+}
+
+header nav li /* SELETORES DO CABEÇALHO */
+{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    font-family: "Bungee", sans-serif;
+    font-weight: normal; 
+    font-style: normal;
+}
+
+header nav a /* LINKS DOS SELETORES DO CABEÇALHO */
+{
+    color:#ecf0f1;
+    text-decoration: none;
+}
+
+header .container /* ITENS INSERIDOS NO CABEÇALHO */
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container /* ITENS ou ELEMENTOS DO SITE */
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.brands-list img /* LOGOS DAS MARCAS */
+{
+    height: 24px;
+    display: inline;
+    margin-right: 8px;
+}
+
+.brands-list li /* ORGANIZAÇÃO DOS LOGOS DAS MARCAS */
+{
+    display: inline;
+}
+
+section .container /* ELEMENTOS DA PÁGINA */
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+section  /* ESPAÇAMENTO DO CONTEÚDO DA PÁGINA */
+{
+    padding: 24px 0;
+}
+
+section h2, section h3 /* "SOBRE A LOJA" && OPÇÕES DE CONTATO */
+{
+    margin-bottom: 16px;
+}
+
+section p, header nav li  /* PARÁGRAFO SOBRE A LOJA */
+{
+    margin-bottom: 8px;
+}
+
+section div > img /* IMAGEM DA FACHADA DA LOJA */
+{
+    margin-right: 32px;
+}
+
+.social-links img /* IMAGEM DOS LOGOS DAS REDES SOCIAIS */
+{
+    height: 24px;
+    /*display: inline;
+    margin-right: 8px;*/
+}
+
+.social-links li /* REDES SOCIAIS */
+{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links a /* LINKS DAS REDES SOCIAIS */
+{
+    text-decoration: none;
+}
+
+#contact .container /* OPÇÕES DE CONTATO */
+{
+    display: block;
+}
+
+.contact-methods /* IMAGEM DA FACHADA DA LOJA */
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button /* FORMULÁRIO && ÁREA DE TEXTO && BOTÃO */
+{
+    display: block;
+    width:320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+form textarea /* ÁREA DE TEXTO */
+{
+    resize: none;
+    height: 100px;
+}
+
+form button /* BOTÃO DO FORMULÁRIO DE CONTATO */
+{
+    background-color:#182C61;
+    color:#ecf0f1;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+}
+
+form button:hover /* BOTÃO DO FORMULÁRIO DE CONTATO (QUANDO PASSA POR CIMA) */
+{
+    background-color:#2c458b;
+}
+
+input:focus, textarea:focus /* FORMULÁRIO DE CONTATO (QUANDO ESTÁ ESCREVENDO) */
+{
+    outline-color:#182C61;
+}
+
+footer
+{
+    background-color:#182C61;
+    color:#ecf0f1;
+    padding: 16px 0;
+}
